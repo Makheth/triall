@@ -1,0 +1,79 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #969090;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#studentCard {
+  margin-top: 20px;
+}
+
+.card {
+  background: linear-gradient(black 50%, rgb(248, 248, 248) 50%);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(216, 213, 213, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card img {
+  border-radius: 0;
+  margin-right: 20px;
+}
+
+.card .info {
+  padding-top: 20px;
+  flex-grow: 1;
+}
+.program {
+  color: white;
+  text-decoration: underline;
+}
+.name {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+}
+
+.entry-year span {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted black;
+}
+.student-number span {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted black;
+}
+.return-message {
+  margin-top: 5px;
+  font-style: italic;
+  color: black;
+}
